@@ -1,0 +1,43 @@
+body {
+    background-color: #473C8B;
+}
+
+header {
+    background-color: #9370DB;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    
+}
+
+.main-logo {
+    padding: 10px 10px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 8px 8px #D3D3D3; 
+    
+}
+
+.nav-items {
+    font-size: 35px;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    
+}
+
+/* Tirar o sublinhado feio */
+
+a:hover {
+    color: #68228B;
+}
+
+a {
+    text-decoration: none;
+}
+
+
