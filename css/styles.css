@@ -1,6 +1,8 @@
 body {
-    background-color: #473C8B;
+    background-color: #1C1C1C; 
 }
+
+/* menu */
 
 header {
     background-color: #9370DB;
@@ -40,4 +42,16 @@ a {
     text-decoration: none;
 }
 
+/* corpo */
+
+main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main > h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
 
