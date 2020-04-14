@@ -10,13 +10,12 @@ header {
 
 .navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
     
 }
 
-.main-logo {
+.main-logo, .reverse-rocket {
     padding: 10px 10px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -25,7 +24,14 @@ header {
     
 }
 
+h2.reverse-rocket {
+    font-size: 35px;
+    transform: rotate(90deg);
+    margin-right: 700px;
+}
+
 .nav-items {
+    margin-left: 24px;
     font-size: 35px;
     font-family: 'Josefin Slab', serif;
     color: white;
@@ -52,6 +58,12 @@ main {
 }
 
 main > h1 {
+    color: white;
+    font-size: 35px;
     font-family: 'Fjalla One', sans-serif;
 }
 
+main > h3 {
+    transform: rotate(90deg);
+    font-size: 35px;
+}
