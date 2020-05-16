@@ -5,19 +5,20 @@ body {
 /* menu */
 
 header {
+    
     background-color: #9370DB;
 }
 
 .navbar{
     display: flex;
     align-items: center;
-    padding: 15px 10px;
+    padding: 15px 10px; 
     
 }
 
 .main-logo, .reverse-rocket {
     padding: 10px 10px;
-    color: white;
+    color: #F0FFFF;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     text-shadow: 1px 8px 8px #D3D3D3; 
@@ -50,20 +51,48 @@ a {
 
 /* corpo */
 
-main {
+main > div {
     margin-top: 60px;
     display: flex;
     justify-content: center;
     
 }
 
-main > h1 {
-    color: white;
+div > h1 {
+    color: #F0FFFF;
     font-size: 35px;
     font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
 }
 
-main > h3 {
+div > h3 {
     transform: rotate(90deg);
     font-size: 35px;
 }
+
+main > p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #F0FFFF;
+}
+
+main > p > span {
+    color: #9370DB;
+}
+
+#botao{ text-align: center }
+.botaoEnviar{
+    cursor: pointer;
+    font-family: 'Raleway';
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #9370DB;
+    font-size: 18px;
+}
+ 
