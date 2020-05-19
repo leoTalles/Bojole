@@ -5,11 +5,12 @@ body {
 /* menu */
 
 header {
-    
+    width: 100%;
     background-color: #9370DB;
 }
 
 .navbar{
+    max-width: 100%;
     display: flex;
     align-items: center;
     padding: 15px 10px; 
@@ -22,20 +23,22 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     text-shadow: 1px 8px 8px #D3D3D3; 
-    
+
 }
 
 h2.reverse-rocket {
     font-size: 35px;
     transform: rotate(90deg);
-    margin-right: 700px;
+    
 }
 
 .nav-items {
+    text-align: center;
     margin-left: 24px;
     font-size: 35px;
     font-family: 'Josefin Slab', serif;
     color: white;
+    width: 100%;
     
 }
 
@@ -59,18 +62,16 @@ main > div {
 }
 
 div > h1 {
+    text-align: center;
+    width: 100%;
     color: #F0FFFF;
     font-size: 35px;
     font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
 }
 
-div > h3 {
-    transform: rotate(90deg);
-    font-size: 35px;
-}
-
 main > p {
+    line-height: 40px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 30px;
